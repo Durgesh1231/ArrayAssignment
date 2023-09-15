@@ -1,0 +1,88 @@
+Ans 1.
+If we don’t assign values to array elements and try to access them, the compiler
+does not produce an error as in the case of simple variables.Instead, it assigns values that aren’t garbage.
+Default value of different data types-:
+boolean  false
+String   Null
+int      0
+
+Ans 2.
+
+In array negative no. cannot pass in array size.
+
+Ans 3.
+Heap Area.
+
+Ans 4.
+(a).Array size is fixed: The array is static, which means its size is always fixed. The memory which is 
+allocated to it cannot be increased or decreased. Below is the program for the same:
+
+(b).Array is homogeneous:The array is homogeneous, i.e., only one type of value can be store in the array. 
+For example, if an array type “int“, can only store integer elements and cannot allow the 
+elements of other types such as double, float, char so on. Below is the program for the same:
+
+(c). Array is a contiguous blocks of memory.
+(d).Insertion and deletion are not easy in Array.
+
+Ans 5.
+We can create an array without a name. Such types of nameless arrays are called anonymous arrays.
+The main purpose of an anonymous array is just for instant use (just for one-time usage).
+An anonymous array is passed as an argument of a method.
+
+example-
+new int[] {1,2,3};
+new String[]  {"ram","durgesh","akash"};
+
+Ans 6.
+
+(a). using for loop
+(b). using for each loop
+
+
+Ans 7.
+array.length: length is a final variable applicable for arrays. With the help of the length 
+variable, we can obtain the size of the array. 
+
+string.length() : length() method is a final method which is applicable for string objects. 
+The length() method returns the number of characters present in the string. 
+
+The length variable is applicable to an array but not for string objects whereas the length() method 
+is applicable for string objects but not for arrays.
+
+
+public class test {
+
+	public static void main(String[] args) {
+             int[] array = new int[4];
+             System.out.println("The size of the array is "+ array.length);
+                         
+             String str = "GeeksforGeeks";
+             System.out.println("The size of the String is "+ str.length());
+                           
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
